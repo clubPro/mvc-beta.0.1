@@ -14,7 +14,6 @@ abstract class AbstractController
         $this->_view();
     }
 
-
     public function setController ($controllerName)
     {
         $this->_controller = $controllerName;
@@ -25,15 +24,6 @@ abstract class AbstractController
         $this->_action = $actionName;
     }
 
-    public function setTemplate($template)
-    {
-        $this->_template = $template;
-    }
-
-    public function setRegistry($registry)
-    {
-        $this->_registry = $registry;
-    }
 
     public function setParams ($params)
     {
