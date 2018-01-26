@@ -36,7 +36,7 @@ class Route
         $actionName = $this->_action . 'Action';
 
         // Check if the user is authorized to access the application
-
+echo "";
 
         if(!class_exists($controllerClassName) || !method_exists($controllerClassName, $actionName)) {
             $controllerClassName = self::NOT_FOUND_CONTROLLER;
