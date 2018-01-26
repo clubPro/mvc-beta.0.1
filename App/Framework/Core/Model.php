@@ -4,7 +4,7 @@ namespace App\Framework\Core;
 
 use App\Framework\Core\Database\PDODatabaseHandler;
 
-class AbstractModel
+class Model
 {
     const DATA_TYPE_BOOL = \PDO::PARAM_BOOL;
     const DATA_TYPE_STR = \PDO::PARAM_STR;

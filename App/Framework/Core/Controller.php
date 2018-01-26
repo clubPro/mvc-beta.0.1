@@ -1,7 +1,7 @@
 <?php
-namespace PHPMVC\Controllers;
+namespace App\Framework\Core;
 
-abstract class AbstractController
+ class Controller
 {
     protected $_controller;
     protected $_action;

@@ -1,24 +1,18 @@
 <?php
-namespace PHPMVC\Models;
+namespace App\Vendor\Models;
 
-class ClientModel extends AbstractModel
+use App\Framework\Core\Model;
+
+class TestModel extends Model
 {
 
-    public $ClientId;
-    public $Name;
-    public $PhoneNumber;
-    public $Email;
-    public $Address;
 
-    protected static $tableName = 'app_clients';
+    protected static $tableName = 'users';
 
     protected static $tableSchema = array(
-        'Name'              => self::DATA_TYPE_STR,
-        'PhoneNumber'       => self::DATA_TYPE_STR,
-        'Email'             => self::DATA_TYPE_STR,
-        'Address'           => self::DATA_TYPE_STR
-
+        'user'              => self::DATA_TYPE_STR,
+        'pass'       => self::DATA_TYPE_STR,
     );
 
-    protected static $primaryKey = 'ClientId';
+    protected static $primaryKey = 'id';
 }

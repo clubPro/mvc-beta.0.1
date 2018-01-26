@@ -1,22 +1,18 @@
 <?php
-namespace PHPMVC\LIB\Database;
+namespace App\Framework\Core\Database;
 
-class PDODatabaseHandler extends DatabaseHandler
-{
-
+class PDODatabaseHandler {
     private static $_instance;
     private static $_handler;
-
     private function __construct(){
         self::init();
     }
-
     public function __call($name, $arguments)
     {
         return call_user_func_array(array(&self::$_handler, $name), $arguments);
     }
 
-    protected static function init()
+    private  function init()
     {
         try {
             self::$_handler = new \PDO(
