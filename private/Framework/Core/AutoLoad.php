@@ -1,5 +1,5 @@
 <?php
-namespace App\Framework\Core;
+namespace Framework\Core;
 
 class AutoLoad
 {
