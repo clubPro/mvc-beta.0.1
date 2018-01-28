@@ -2,7 +2,7 @@
 
 use App\Framework\Core\Route;
 
-require_once "..".DIRECTORY_SEPARATOR."App".DIRECTORY_SEPARATOR."Framework".DIRECTORY_SEPARATOR
-    ."Core".DIRECTORY_SEPARATOR."Config.php";
-require_once APP.DR."Framework".DR."Core".DR."AutoLoad.php";
-$Route= new Route();
+
+require_once Config::APP.Config::DR."Framework".Config::DR."Core".Config::DR."AutoLoad.php";
+
+//$Route= new Route();
