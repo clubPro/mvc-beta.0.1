@@ -10,13 +10,14 @@ require_once '../private/vendor/autoload.php';
 /**
  * Error and Exception handling
  */
-//error_reporting(E_ALL);
-//set_error_handler('Framework\Error::errorHandler');
-//set_exception_handler('Framework\Error::exceptionHandler');
+error_reporting(E_ALL);
+set_error_handler('Framework\Error::errorHandler');
+set_exception_handler('Framework\Error::exceptionHandler');
+$loader = new Twig_Loader_Filesystem('../private/App/Views');
 
 $router = new Router();
 
-// Add the routes
+// Add  folder
 $router->add(["Admin", "user"]);
-//echo $_SERVER['QUERY_STRING']."<br>";
+
 $router->dispatch($_SERVER['QUERY_STRING']);

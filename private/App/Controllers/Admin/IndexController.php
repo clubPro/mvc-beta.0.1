@@ -13,6 +13,6 @@ use Framework\Core\Controller;
 class IndexController extends Controller
 {
     public function IndexAction(){
-        echo "test";
+        echo "<h1 style='text-align: center ; color: #dd4444; size: 80px'>admin page is test  now </h1>";
     }
 }

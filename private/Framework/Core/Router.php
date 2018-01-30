@@ -34,26 +34,9 @@ class Router
     {
         //add namespase  void ////
     $namespaces[]="";
-        /*   // Convert the route to a regular expression: escape forward slashes
-           $route = preg_replace('/\//', '\\/', $route);
-           // Convert variables e.g. {controller}
-           $route = preg_replace('/\{([a-z]+)\}/', '(?P<${0}>[a-z-]+)', $route);
-
-           $route = preg_replace('/\{/', '', $route);
-           $route = preg_replace('/\}/', '', $route);
-
-           // Convert variables with custom regular expressions e.g. {id:\d+}
-           $route = preg_replace('/\{([a-z]+):([^\}]+)\}/', '(?P<\1>\2)', $route);
-
-           // Add start and end delimiters, and case insensitive flag
-           $route = '/^' . $route . '$/i';*/
         $ragex = "/^(?P<namespace>admin)\/*(?P<controller>[a-z-]+)*\/*(?P<id>[\d]*)\/*(?P<action>[a-z-]*)$/i";
-        echo $ragex;
         foreach ($namespaces as $namespace)
             $this->routes[] = str_replace("admin", $namespace, $ragex);
-        echo "<pre>";
-        var_dump($this->routes);
-        echo "</pre>";
 
     }
 
@@ -128,7 +111,7 @@ class Router
             $controller = $this->getNamespace() . $controller."Controller";
 
              if (class_exists($controller)) {
-                $controller_object = new $controller();
+                $controller_object = new $controller($this->params);
                 $action = $this->params['action']."Action";
                 $action = $this->convertToCamelCase($action);
 
@@ -171,28 +154,7 @@ class Router
     {
         return lcfirst($this->convertToStudlyCaps($string));
     }
-
-    /**
-     * Remove the query string variables from the URL (if any). As the full
-     * query string is used for the route, any variables at the end will need
-     * to be removed before the route is matched to the routing table. For
-     * example:
-     *
-     *   URL                           $_SERVER['QUERY_STRING']  Route
-     *   -------------------------------------------------------------------
-     *   localhost                     ''                        ''
-     *   localhost/?                   ''                        ''
-     *   localhost/?page=1             page=1                    ''
-     *   localhost/posts?page=1        posts&page=1              posts
-     *   localhost/posts/index         posts/index               posts/index
-     *   localhost/posts/index?page=1  posts/index&page=1        posts/index
-     *
-     * A URL of the format localhost/?page (one variable name, no value) won't
-     * work however. (NB. The .htaccess file converts the first ? to a & when
-     * it's passed through to the $_SERVER variable).
-     *
-     * @param string $url The full URL
-     *
+/*
      * @return string The URL with the query string variables removed
      */
     protected function removeQueryStringVariables($url)
@@ -218,14 +180,11 @@ class Router
      * @return string The request URL
      */
     protected function getNamespace()
-    { echo "<pre>";
-        var_dump($this->params);
-        echo "</pre>";
+    {
         $namespace = 'App\Controllers\\';
         if (array_key_exists('namespace', $this->params)&&!empty($this->params["namespace"])) {
             $namespace .= ucwords($this->params['namespace']) . '\\';
         }
- echo $namespace;
         return $namespace;
     }
 }

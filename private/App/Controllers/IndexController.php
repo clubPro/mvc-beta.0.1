@@ -9,10 +9,15 @@ namespace App\Controllers;
 
 
 use Framework\Core\Controller;
+use Framework\Core\View;
 
 class IndexController extends Controller
 {
  public function IndexAction(){
-     echo "test";
+
+     View::renderTemplate("index.html" ,[
+         "post"=> "it is page tru only"
+     ]
+     );
  }
 }
