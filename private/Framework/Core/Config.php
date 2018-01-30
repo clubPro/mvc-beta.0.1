@@ -1,5 +1,6 @@
 <?php
 
+namespace Framework\Core;
 
 class Config
 {
@@ -48,5 +49,11 @@ class Config
      * @var string
      **/
     const DATABASE_DRIVER = "PDO";
+
+    /**
+     * SHOW ERRORS
+     * @var string
+     **/
+    const  SHOW_ERRORS = true;
 
 }

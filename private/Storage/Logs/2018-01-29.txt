@@ -1,0 +1,224 @@
+[29-Jan-2018 00:41:13 Europe/Berlin] Uncaught exception: 'Error' with message 'Class 'Framework\Core\Router' not found'
+Stack trace: #0 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/public/index.php' on line 18
+[29-Jan-2018 00:41:57 Europe/Berlin] Uncaught exception: 'Exception' with message ''
+Stack trace: #0 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/public/index.php' on line 18
+[29-Jan-2018 00:41:59 Europe/Berlin] Uncaught exception: 'Exception' with message ''
+Stack trace: #0 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/public/index.php' on line 18
+[29-Jan-2018 00:41:59 Europe/Berlin] Uncaught exception: 'Exception' with message ''
+Stack trace: #0 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/public/index.php' on line 18
+[29-Jan-2018 00:47:02 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Home not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 132
+[29-Jan-2018 00:48:57 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('action')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 135
+[29-Jan-2018 00:49:17 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Action not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('action/controll...')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 132
+[29-Jan-2018 00:49:35 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('action/')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 135
+[29-Jan-2018 00:59:34 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('action/')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 133
+[29-Jan-2018 00:59:37 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('action/')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 133
+[29-Jan-2018 00:59:49 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Home not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 130
+[29-Jan-2018 00:59:59 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Jnjknjk not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('jnjknjk/jknj')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 130
+[29-Jan-2018 01:00:03 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Jnjknjk not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('jnjknjk/jknj')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 130
+[29-Jan-2018 01:00:04 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Jnjknjk not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('jnjknjk/jknj')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 130
+[29-Jan-2018 01:00:05 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Jnjknjk not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('jnjknjk/jknj')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 130
+[29-Jan-2018 01:02:22 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('admin')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 133
+[29-Jan-2018 01:02:33 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('admin/kjkl')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 130
+[29-Jan-2018 01:02:45 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\Kjkl not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('admin/kjkl/kmkl...')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 130
+[29-Jan-2018 01:03:17 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('admin/kjkl/5455...')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 133
+[29-Jan-2018 10:38:43 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Home not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 136
+[29-Jan-2018 10:38:45 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 139
+[29-Jan-2018 10:39:03 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 139
+[29-Jan-2018 10:39:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Test not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 136
+[29-Jan-2018 10:39:27 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 139
+[29-Jan-2018 10:40:27 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Test not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 136
+[29-Jan-2018 10:40:37 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add/aa')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 139
+[29-Jan-2018 10:40:42 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add/')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 139
+[29-Jan-2018 10:40:45 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Test not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 136
+[29-Jan-2018 10:41:03 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add/')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 139
+[29-Jan-2018 10:41:05 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add/')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 139
+[29-Jan-2018 10:41:07 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add/')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 139
+[29-Jan-2018 10:41:13 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Test not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 136
+[29-Jan-2018 10:41:19 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Test not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 136
+[29-Jan-2018 10:41:23 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Test not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 136
+[29-Jan-2018 10:43:05 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Test not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 136
+[29-Jan-2018 10:43:07 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Test not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 136
+[29-Jan-2018 10:50:03 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Test not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 137
+[29-Jan-2018 10:50:26 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Test not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 137
+[29-Jan-2018 10:50:40 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Test not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 137
+[29-Jan-2018 10:50:49 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Test not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 137
+[29-Jan-2018 10:51:05 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Test not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 137
+[29-Jan-2018 10:56:23 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Test not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('test/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 138
+[29-Jan-2018 10:56:30 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('admin/add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 138
+[29-Jan-2018 10:56:39 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\Add not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(26): Framework\Core\Router->dispatch('admin/add/ag')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 138
+[29-Jan-2018 10:58:40 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(27): Framework\Core\Router->dispatch('admin/add/')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 141
+[29-Jan-2018 10:58:51 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Add not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(27): Framework\Core\Router->dispatch('add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 138
+[29-Jan-2018 10:58:54 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Add not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(27): Framework\Core\Router->dispatch('add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 138
+[29-Jan-2018 11:00:00 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Add not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(28): Framework\Core\Router->dispatch('add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 138
+[29-Jan-2018 11:00:09 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(28): Framework\Core\Router->dispatch('add/')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 141
+[29-Jan-2018 11:00:19 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Add not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(28): Framework\Core\Router->dispatch('add/cm')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 138
+[29-Jan-2018 11:01:12 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(28): Framework\Core\Router->dispatch('add/cm/')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 141
+[29-Jan-2018 11:02:04 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Add not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(28): Framework\Core\Router->dispatch('add/cm')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 138
+[29-Jan-2018 11:03:36 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Add not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(28): Framework\Core\Router->dispatch('add/cm')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 138
+[29-Jan-2018 11:09:42 Europe/Berlin] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/private/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/opt/lampp/htdo...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('Framework\\Core\\...')
+#2 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(18): spl_autoload_call('Framework\\Core\\...')
+#3 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 144
+[29-Jan-2018 11:09:48 Europe/Berlin] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/private/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/opt/lampp/htdo...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('Framework\\Core\\...')
+#2 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(18): spl_autoload_call('Framework\\Core\\...')
+#3 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 144
+[29-Jan-2018 11:20:24 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Add not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(28): Framework\Core\Router->dispatch('add')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 146

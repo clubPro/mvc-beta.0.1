@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Framework\Core;
+namespace Framework\Core;
 
 use App\Framework\Core\Database\PDODatabaseHandler;
 
