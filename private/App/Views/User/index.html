@@ -1,0 +1,24 @@
+
+{% extends 'Base.html' %}
+{% block fooBlock %}
+<form method="post" class="form-fr">
+    <div class="div-form-fr">
+        <label  for="#user">إسم المستخدم </label>
+        <input  name="user" type="text" id="#user"/>
+    </div>
+
+    <div class="div-form-fr">
+        <label  for="#password">كبمة المرور </label>
+        <input name="pass" type="text" id="#password"/>
+    </div>
+
+    <div class="div-form-fr">
+        <label  for="#email">البريد الإلكتروني </label>
+        <input type="text" id="#email"/>
+    </div>
+
+    <div class="div-form-fr">
+        <input type="submit" name="email" value="send donne"/>
+    </div>
+</form>
+{% endblock %}

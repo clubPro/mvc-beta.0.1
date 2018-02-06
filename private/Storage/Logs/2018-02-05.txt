@@ -1,0 +1,4 @@
+[05-Feb-2018 10:38:23 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\HjnController not found'
+Stack trace: #0 /opt/lampp/htdocs/mvc-beta.0.1/public/index.php(24): Framework\Core\Router->dispatch('hjn/gr')
+#1 {main}
+Thrown in '/opt/lampp/htdocs/mvc-beta.0.1/private/Framework/Core/Router.php' on line 125

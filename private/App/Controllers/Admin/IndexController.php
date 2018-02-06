@@ -15,4 +15,14 @@ class IndexController extends Controller
     public function IndexAction(){
         echo "<h1 style='text-align: center ; color: #dd4444; size: 80px'>admin page is test  now </h1>";
     }
+
+    public function after()
+    {
+        // TODO: Implement after() method.
+    }
+
+    public function before()
+    {
+        // TODO: Implement before() method.
+    }
 }

@@ -45,9 +45,7 @@ abstract class View
 
         if ($twig === null) {
             $loader = new \Twig_Loader_Filesystem('../private/App/Views');
-            $twig = new \Twig_Environment($loader, array(
-                'cache' => '../private/Storage/Cache',
-            ));
+            $twig = new \Twig_Environment($loader);
 
         }
 

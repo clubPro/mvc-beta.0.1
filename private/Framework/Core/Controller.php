@@ -25,6 +25,6 @@ namespace Framework\Core;
 
      }
 
-     public function after(){}
-     public function before(){}
+   abstract  public function after();
+   abstract  public function before();
 }

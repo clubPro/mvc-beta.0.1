@@ -16,44 +16,37 @@ class Config
      **/
     const APP = __DIR__ . DR . ".." . DR . "..";
 
+   const  DATABASE_PARAMS = [
+    'driver'   => 'pdo_mysql',
+    'host'     => 'localhost',
+    'charset'  => 'utf8',
+    'user'     => 'root',
+    'password' => '',
+    'dbname'   => 'test',
 
-    /**
-     * Database  host name
-     * @var string
-     **/
-    const DATABASE_HOST_NAME = "localhost";
-
-    /**
-     * Database db name
-     * @var string
-     **/
-
-    const DATABASE_DB_NAME = "test";
-
-    /**
-     * Database user name
-     * @var string
-     **/
-
-    const DATABASE_USER_NAME = "root";
-
-    /**
-     * Database password
-     * @var string
-     **/
-
-    const DATABASE_PASSWORD = "";
-
-    /**
-     * Database driver
-     * @var string
-     **/
-    const DATABASE_DRIVER = "PDO";
+];
 
     /**
      * SHOW ERRORS
      * @var string
      **/
-    const  SHOW_ERRORS = true;
+    const  SHOW_ERRORS = false;
+    /**
+     * SHOW ERRORS
+     * @var string
+     **/
+    const  CTYPT_SALT = "MVC@22164642//1997";
 
+    /**
+     * LANGUAGE SPORTED
+     * @var array
+     **/
+    const  LANGUAGE_SPORTED = ["ar","en","fr","ru"];
+
+
+    /**
+     * LANGUAGE DEFAULT
+     * @var string
+     **/
+    const  LANGUAGE_DEFAULT="ar";
 }
